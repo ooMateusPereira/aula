@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VASCO DA GAMA</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">História</a></li>
+                <li><a href="#">Fotos</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+        <h1>Venha ser VASCAÍNO</h1>
+    </header>
+    <section id="pacotes">
+        <h2>Conheça o VASCO</h2>
+        <p>
+            O Club de Regatas Vasco da Gama, mais conhecido como Vasco da Gama ou simplesmente Vasco, 
+            ujo acrônimo é CRVG, é uma entidade sócio-poliesportiva brasileira com sede na cidade do Rio de Janeiro, fundada 
+            em 21 de agosto de 1898 por um grupo de remadores. 
+            Inspirados nas celebrações do quarto centenário da descoberta do caminho marítimo para as Índias, ocorrida em 1498, batizaram a nova agremiação 
+            com o nome do navegador português que alcançou tal feito, Vasco da Gama. Apesar de ter sido fundado como um "clube de regatas", 
+            o Vasco da Gama abrange 
+            diversas outras modalidades como atletismo, basquete, futebol de areia e futebol americano, tendo como esporte mais tradicional o futebol. 
+            É a agremiação poliesportiva brasileira recordista de medalhas em Jogos Olímpicos (40 no total), 
+            com 175 atletas convocados,[15] e em Jogos Paralímpicos (28 no total),[16][17] sendo reconhecido como clube formador pelo Comitê Paralímpico Brasileiro.[17]
+
+            O primeiro grande título do Vasco foi o Campeonato Carioca de 1923, conquistado pelo time conhecido como "Camisas Negras",
+            um elenco com a maioria dos jogadores sendo negros e de classes operárias. O clube se orgulha de sua luta antirracista, marcada pela Resposta Histórica, 
+            carta na qual o cruzmaltino recusou-se a dispensar doze de seus atletas negros contra a vontade da liga carioca, 
+            que alegava tratarem-se de pessoas com "profissão duvidosa". O clube ainda tem, dentre o seu plantel de ídolos, alguns dos maiores 
+            artilheiros do Campeonato Brasileiro, tendo como Roberto Dinamite, o maior, com a marca de 190 gols, seguido por Romário e Edmundo, 
+            com 154 e 153 gols respectivamente.
+            O primeiro grande ídolo do clube foi o atacante Ademir de Menezes, que liderou o Expresso da Vitória, tornando-se o maior artilheiro do Vasco 
+            com 301 gols marcados, número só superado por Dinamite e Romário décadas mais tarde.
+            <br><br>
+            <a href="https://www.w3.org/">link</a>                
+        </p>
+        <div class="figuras">
+            <figure>
+                <img src="img/logo.png" alt="Imagem do logo do Vasco">
+                <figcaption>Vasco</figcaption>
+            </figure>
+            <figure>
+                <img src="img/gigante.jpg" alt="Sócio gigante">
+                <figcaption>Sócio Gigante</figcaption>
+            </figure>
+            <figure>
+                <img src="img/camisa.jpg" alt="Camisa">
+                <figcaption>Camisa do Vasco</figcaption>
+            </figure>
+        </div>
+        <div class="video">
+            <video controls width="300px">
+                <source src="video/video1.mp4" type="video/mp4">
+                <source src="video/video1.webm" type="video/webm">
+                O vídeo não foi executado. <a href="video/video1.MOV">Clique aqui para baixar</a>
+            </video>
+        </div>
+    </section>
+    <section>
+        <h2>Taxas e serviços</h2>
+        <p>Veja nossas taxas</p>
+        <table>
+            <caption>Descrição dos serviços</caption>
+            <thead>
+                <tr>
+                    <th>Serviços</th>
+                    <th>Valor</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Reserva de passeio</td>
+                    <td> 50 Reias</td>
+                </tr>
+                <tr>
+                    <td>Compra de ingresso</td>
+                    <td>20 reais</td>
+                </tr>
+        </tbody>
+        </table>
+    </section>
+    <section>
+        <br><h3>Orçamento</h3>
+        <form method="GET" action="">
+            
+            <fieldset>
+                <legend>Dados da viagem</legend>
+                <label>Nome</label><br>
+                <input type="text" name="nome"><br><br>
+
+                <label>Email</label><br>
+                <input type="email" required name="email"><br><br>
+
+                <label>Data de ida</label><br>
+                <input type="date" name="datadeida"><br><br>
+
+                <label>Data de volta</label><br>
+                <input type="date" name="datadevolta"><br><br>
+
+                <label>Quantidade de pessoas</label><br>
+                <input type="number" name="quantidadepessoas"><br><br>
+
+                <label>Senha</label><br>
+                <input type="password" name="senha"><br><br>
+            </fieldset><br>
+
+
+            <br><fieldset>
+                <legend>Quais serviços deseja contratar?</legend>
+                <label>
+                <input type="checkbox" name="passagens" value="Passagens">Compra de passagens
+                </label>
+                <label>
+                <br><input type="checkbox" name="hospedagem" value="Hospedagem">Reserva de hospedagem
+                </label>
+                <label>
+                <br><input type="checkbox" name="veiculos" value="Veículos">Reserva de veículos
+                </label>
+            </fieldset><br>
+            
+            <br><fieldset>
+                <legend>Escolha a forma de pagamento</legend>
+                <label>
+                    <input type="radio" name="formaPagamento" value="Crédito">Cartão de crédito
+                </label>
+                <label>
+                    <br><input type="radio" name="formaPagamento" value="Boleto">Boleto
+                </label>
+                <label>
+                    <br><input type="radio" name="formaPagamento" value="Pix">Pix
+                </label>
+            <br></fieldset>
+
+            <br><fieldset>
+                <legend>Escolha o prazo para o pagamento</legend>
+                <select name="prazoPagamento">
+                    <option value="aVista" selected>A vista</option>
+                    <option value="5x">5x sem juros</option>
+                    <option value="10x">10x com juros</option>
+                </select>
+            </fieldset>
+
+
+            <br><label>Comentario</label><br>
+            <textarea rows="5" nome="comentario"></textarea><br><br>
+
+            <button>Salvar</button>
+        </form>
+    </section>
+    <footer>
+        <p>Desenvolvido por Mateus.</p>
+    </footer>
+</body>
+</html>
